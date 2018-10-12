@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="351.0" prefWidth="710.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="quanlyaccount.StartController">
+   <children>
+      <TextField layoutX="64.0" layoutY="49.0" promptText="Sofware" />
+      <ListView layoutX="40.0" layoutY="107.0" prefHeight="200.0" prefWidth="645.0" />
+      <Button layoutX="263.0" layoutY="50.0" mnemonicParsing="false" text="Insert" />
+      <Button layoutX="363.0" layoutY="50.0" mnemonicParsing="false" text="Update" />
+      <Button layoutX="471.0" layoutY="50.0" mnemonicParsing="false" text="Delete" />
+   </children>
+</AnchorPane>
